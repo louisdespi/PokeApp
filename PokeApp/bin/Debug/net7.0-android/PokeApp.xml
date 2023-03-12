@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PokeApp</name>
+    </assembly>
+    <members>
+        <member name="P:PokeApp.ViewModels.BaseViewModel.IsBusy">
+            <inheritdoc cref="F:PokeApp.ViewModels.BaseViewModel.isBusy"/>
+        </member>
+        <member name="P:PokeApp.ViewModels.BaseViewModel.Title">
+            <inheritdoc cref="F:PokeApp.ViewModels.BaseViewModel.title"/>
+        </member>
+        <member name="P:PokeApp.ViewModels.PokemonDetailsViewModel.PokemonDetail">
+            <inheritdoc cref="F:PokeApp.ViewModels.PokemonDetailsViewModel.pokemonDetail"/>
+        </member>
+        <member name="P:PokeApp.ViewModels.PokemonsViewModel.IsRefreshing">
+            <inheritdoc cref="F:PokeApp.ViewModels.PokemonsViewModel.isRefreshing"/>
+        </member>
+        <member name="F:PokeApp.ViewModels.PokemonsViewModel.getPokemonsCommand">
+            <summary>The backing field for <see cref="P:PokeApp.ViewModels.PokemonsViewModel.GetPokemonsCommand"/>.</summary>
+        </member>
+        <member name="P:PokeApp.ViewModels.PokemonsViewModel.GetPokemonsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:PokeApp.ViewModels.PokemonsViewModel.GetPokemonsAsync"/>.</summary>
+        </member>
+        <member name="F:PokeApp.ViewModels.PokemonsViewModel.goToDetailsCommand">
+            <summary>The backing field for <see cref="P:PokeApp.ViewModels.PokemonsViewModel.GoToDetailsCommand"/>.</summary>
+        </member>
+        <member name="P:PokeApp.ViewModels.PokemonsViewModel.GoToDetailsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:PokeApp.ViewModels.PokemonsViewModel.GoToDetailsAsync(PokeApp.Models.PokemonDetail)"/>.</summary>
+        </member>
+    </members>
+</doc>

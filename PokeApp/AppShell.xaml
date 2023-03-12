@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="PokeApp.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:view="clr-namespace:PokeApp.View"
+    Shell.FlyoutBehavior="Disabled">
+
+    <TabBar>
+        <ShellContent
+            Title="Random pokemons"
+            ContentTemplate="{DataTemplate view:MainPage}"
+            Route="MainPage" />
+        
+        <ShellContent
+            Title="Versions"
+            ContentTemplate="{DataTemplate view:VersionsPage}"
+            Route="VersionsPage" />
+        
+        <ShellContent
+            Title="Dream team"
+            ContentTemplate="{DataTemplate view:TeamPage}"
+            Route="TeamPage" />
+    </TabBar>
+
+</Shell>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:PokeApp.Models"
+             xmlns:viewmodel="clr-namespace:PokeApp.ViewModels"
+             x:Class="PokeApp.View.MainPage"
+             x:DataType="viewmodel:PokemonsViewModel"
+             Title="{Binding Title}">
+
+    <Grid ColumnDefinitions="*, *"
+          ColumnSpacing="5"
+          RowDefinitions="*, Auto">
+        <RefreshView Grid.ColumnSpan="2"
+                     Command="{Binding GetPokemonsCommand}"
+                     IsRefreshing="{Binding IsRefreshing}">
+            <CollectionView x:Name="pokemonCollection"
+                            ItemsLayout="VerticalGrid, 3"
+                            BackgroundColor="Transparent"
+                            SelectionMode="None">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="models:PokemonDetail">
+                        <Grid Padding="0" RowSpacing="20">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="120"/>
+                                <ColumnDefinition Width="120"/>
+                                <ColumnDefinition Width="120"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="120"/>
+                            </Grid.RowDefinitions>
+                            <Frame
+                                Grid.RowSpan="1"
+                                Grid.ColumnSpan="1"
+                                Padding="10"
+                                HeightRequest="100"
+                                WidthRequest="100">
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer CommandParameter="{Binding .}"
+                                        Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:PokemonsViewModel}}, Path=GoToDetailsCommand}"/>
+                                </Frame.GestureRecognizers>
+                                <Image
+                                    Aspect="AspectFit"
+                                    Source="{Binding Sprites.FrontDefault}"
+                                    WidthRequest="96"
+                                    HeightRequest="96" />
+                            </Frame>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </RefreshView>
+    </Grid>
+
+</ContentPage>
