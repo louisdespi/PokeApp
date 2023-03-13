@@ -26,6 +26,8 @@ namespace PokeApp.Services
             if (response.IsSuccessStatusCode)
             {
                 details = (await response.Content.ReadFromJsonAsync<PokemonDetail>());
+                PokemonSpecieDetail sD = await GetPokemonSpecieDetailAsync(details.Species.Url);
+                details.FrenchName = sD.Names[4].Name;
             }
             return details;
         }
@@ -55,8 +57,6 @@ namespace PokeApp.Services
             if (response.IsSuccessStatusCode)
             {
                 details = (await response.Content.ReadFromJsonAsync<PokemonDetail>());
-                PokemonSpecieDetail sD = await GetPokemonSpecieDetailAsync(details.Species.Url);
-                details.FrenchName = sD.Names[4].Name;
             }
             return details;
         }

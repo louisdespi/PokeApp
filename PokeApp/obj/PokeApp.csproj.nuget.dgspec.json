@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\louis\\source\\repos\\PokeApp\\PokeApp\\PokeApp.csproj": {}
+    "C:\\Users\\louis\\source\\repos\\Examen\\PokeApp\\PokeApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\louis\\source\\repos\\PokeApp\\PokeApp\\PokeApp.csproj": {
+    "C:\\Users\\louis\\source\\repos\\Examen\\PokeApp\\PokeApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\louis\\source\\repos\\PokeApp\\PokeApp\\PokeApp.csproj",
+        "projectUniqueName": "C:\\Users\\louis\\source\\repos\\Examen\\PokeApp\\PokeApp.csproj",
         "projectName": "PokeApp",
-        "projectPath": "C:\\Users\\louis\\source\\repos\\PokeApp\\PokeApp\\PokeApp.csproj",
+        "projectPath": "C:\\Users\\louis\\source\\repos\\Examen\\PokeApp\\PokeApp.csproj",
         "packagesPath": "C:\\Users\\louis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\louis\\source\\repos\\PokeApp\\PokeApp\\obj\\",
+        "outputPath": "C:\\Users\\louis\\source\\repos\\Examen\\PokeApp\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

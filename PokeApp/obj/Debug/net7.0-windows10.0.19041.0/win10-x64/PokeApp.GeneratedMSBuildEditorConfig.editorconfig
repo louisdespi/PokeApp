@@ -8,51 +8,51 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PokeApp
-build_property.ProjectDir = C:\Users\louis\source\repos\PokeApp\PokeApp\
+build_property.ProjectDir = C:\Users\louis\source\repos\Examen\PokeApp\
 
-[C:/Users/louis/source/repos/PokeApp/PokeApp/App.xaml]
+[C:/Users/louis/source/repos/Examen/PokeApp/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PokeApp.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/louis/source/repos/PokeApp/PokeApp/AppShell.xaml]
+[C:/Users/louis/source/repos/Examen/PokeApp/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PokeApp.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/louis/source/repos/PokeApp/PokeApp/Resources/Styles/Colors.xaml]
+[C:/Users/louis/source/repos/Examen/PokeApp/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PokeApp.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/louis/source/repos/PokeApp/PokeApp/Resources/Styles/Styles.xaml]
+[C:/Users/louis/source/repos/Examen/PokeApp/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PokeApp.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/louis/source/repos/PokeApp/PokeApp/View/MainPage.xaml]
+[C:/Users/louis/source/repos/Examen/PokeApp/View/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PokeApp.View.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\MainPage.xaml
 
-[C:/Users/louis/source/repos/PokeApp/PokeApp/View/PokemonDetailsPage.xaml]
+[C:/Users/louis/source/repos/Examen/PokeApp/View/PokemonDetailsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PokeApp.View.PokemonDetailsPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\PokemonDetailsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\PokemonDetailsPage.xaml
 
-[C:/Users/louis/source/repos/PokeApp/PokeApp/View/TeamPage.xaml]
+[C:/Users/louis/source/repos/Examen/PokeApp/View/TeamPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PokeApp.View.TeamPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\TeamPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\TeamPage.xaml
 
-[C:/Users/louis/source/repos/PokeApp/PokeApp/View/VersionsPage.xaml]
+[C:/Users/louis/source/repos/Examen/PokeApp/View/VersionsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PokeApp.View.VersionsPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\VersionsPage.xaml

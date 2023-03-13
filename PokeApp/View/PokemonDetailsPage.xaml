@@ -33,9 +33,18 @@
                         Source="{Binding PokemonDetail.Sprites.FrontDefault}" />
                 </Frame>
             </Grid>
-            <VerticalStackLayout>
+            <VerticalStackLayout Padding="10">
                 <Label Text="{Binding PokemonDetail.Id, StringFormat='ID : {0}'}" />
                 <Label Text="{Binding PokemonDetail.FrenchName, StringFormat='French name : {0}'}" />
+                <ListView ItemsSource="{Binding PokemonDetail.Types}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate x:DataType="models:TypeContainer">
+                            <ViewCell>
+                                <Label VerticalOptions="Center" HorizontalOptions="Center" Text="{Binding Type.Name}" />
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
             </VerticalStackLayout>
         </VerticalStackLayout>
     </ScrollView>

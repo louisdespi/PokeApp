@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lATrPI/JvyEU0SB3d4JGx/SLNT8HeBE0NZd4Qpcepswi6yl3qMQY7Ja+xQmoyQ8ZwH9tzyueZbC+UqFO4orJfA==",
+  "dgSpecHash": "GcA6R+6+w2NDGgN/qQay61gb/u9IK1uV4sZ8S6htadU+AlAEKmdJm+pzBX4r6SVZhcO9pzq5Yi55HERW4KZBlQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\louis\\source\\repos\\PokeApp\\PokeApp\\PokeApp.csproj",
+  "projectFilePath": "C:\\Users\\louis\\source\\repos\\Examen\\PokeApp\\PokeApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\louis\\.nuget\\packages\\communitytoolkit.mvvm\\8.1.0\\communitytoolkit.mvvm.8.1.0.nupkg.sha512",
     "C:\\Users\\louis\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
