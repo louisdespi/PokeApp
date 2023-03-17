@@ -16,7 +16,7 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
         builder.Services.AddSingleton<PokemonsService>();
-        builder.Services.AddSingleton<PokemonsViewModel>();
+        builder.Services.AddSingleton<VersionViewModel>();
         builder.Services.AddSingleton<MainPage>();
 
 		builder.Services.AddTransient<PokemonDetailsViewModel>();

@@ -4,8 +4,8 @@ namespace PokeApp.View;
 
 public partial class MainPage : ContentPage
 {
-	PokemonsViewModel viewModel;
-	public MainPage(PokemonsViewModel viewModel)
+	VersionViewModel viewModel;
+	public MainPage(VersionViewModel viewModel)
 	{
 		InitializeComponent();
 		this.viewModel = viewModel;
